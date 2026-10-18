@@ -3,6 +3,6 @@ const express = require('express'), cors = require('cors'), helmet = require('he
 const app = express();
 app.use(helmet(), cors(), express.json());
 app.use('/api', require('./routes'));
-mongoose.connect(process.env.MONGO_URI)
+mongoose.connect(process.env.MONGODB_URI)
   .then(() => app.listen(process.env.PORT || 5000, () => console.log('TravelBharat API running')))
   .catch(e => { console.error(e); process.exit(1); });
