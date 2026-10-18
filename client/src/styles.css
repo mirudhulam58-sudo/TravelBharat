@@ -1,0 +1,17 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;color:#1f2937;background:#faf7f2;line-height:1.6}
+a{color:#c2410c;text-decoration:none}header{display:flex;justify-content:space-between;padding:1rem 5%;background:#fff;border-bottom:1px solid #eee;position:sticky;top:0;z-index:5}
+.logo{font-size:1.4rem;color:#1f2937}.logo b{color:#c2410c}main{max-width:1100px;margin:0 auto;padding:1rem 5% 3rem}
+.hero{text-align:center;padding:3rem 1rem;background:linear-gradient(135deg,#fed7aa,#fde68a);border-radius:16px;margin:1rem 0}
+.filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.6rem;margin:1rem 0}
+input,select,textarea,button{padding:.6rem .8rem;border:1px solid #d1d5db;border-radius:8px;font:inherit;background:#fff}
+button{cursor:pointer;background:#c2410c;color:#fff;border:0}.chips{display:flex;flex-wrap:wrap;gap:.5rem}
+.chips a,.chips span,.chips button{padding:.3rem .8rem;border-radius:99px;background:#fff;border:1px solid #e5e7eb;color:#1f2937}.chips button.on{background:#c2410c;color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.card{background:#fff;border-radius:12px;overflow:hidden;color:inherit;box-shadow:0 1px 4px #0001;transition:transform .15s}.card:hover{transform:translateY(-3px)}
+.card img{width:100%;height:170px;object-fit:cover}.card div{padding:.8rem}.card h3{margin:.3rem 0}
+.tag{background:#ffedd5;color:#9a3412;padding:.1rem .6rem;border-radius:99px;font-size:.8rem}
+.gallery .main{width:100%;max-height:480px;object-fit:cover;border-radius:12px}.thumbs{display:flex;gap:.5rem;margin:.5rem 0}
+.thumbs img{width:90px;height:60px;object-fit:cover;border-radius:6px;cursor:pointer;opacity:.6}.thumbs img.on{opacity:1;outline:2px solid #c2410c}
+dl div{display:flex;gap:1rem;padding:.4rem 0;border-bottom:1px solid #eee}dt{font-weight:600;min-width:160px}dd{margin:0}
+.form{display:grid;gap:.6rem;max-width:560px}table{width:100%;border-collapse:collapse}td{padding:.5rem;border-bottom:1px solid #eee}
+footer{text-align:center;padding:1.5rem;color:#6b7280}@media(max-width:600px){dl div{flex-direction:column;gap:0}}
